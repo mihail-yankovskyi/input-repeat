@@ -1,0 +1,5 @@
+<div class="inputAndButtonDiv">
+  <input [formControl]="inputField" type="text" placeholder="Write ToDo Task">
+  <button [disabled]="inputField.invalid" (click)="getValueFromInput()">Add ToDo</button>
+</div>
+

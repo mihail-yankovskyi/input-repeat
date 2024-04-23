@@ -1,0 +1,29 @@
+.inputAndButtonDiv {
+  display: flex;
+  justify-content: center;
+  input {
+    height: 25px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgb(10, 169, 243);
+    border-radius: 2px;
+    &:focus{
+      border: 2px solid blue;
+    }
+    padding-left: 8px;
+  }
+  button {
+    color: rgb(60, 255, 0);
+    font-weight: 700;
+    background-color: rgb(10, 169, 243);
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid rgb(0, 132, 255);
+    &:focus {
+      border: 3px solid blue;
+    }
+  }
+}

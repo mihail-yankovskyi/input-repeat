@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  margin: 5px 0px 5px 0px;
+  div{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: larger;
+  }
+  .id {
+    font-size: larger;
+  }
+
+  button {
+    margin: 3px;
+  }
+  .done{
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(3, 255, 3);
+    border: 2px solid rgb(24, 202, 0);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .delete {
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(252, 68, 68);
+    border: 2px solid rgb(202, 13, 0);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .change {
+    font-size: large;
+    width: 85px;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid rgb(224, 221, 0);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+.isDone {
+  text-decoration: line-through;
+}

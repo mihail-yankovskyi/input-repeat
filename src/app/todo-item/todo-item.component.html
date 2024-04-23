@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div class="id">{{toDoTaskItem.id}}</div>
+  <div [class.isDone]="toDoTaskItem.isDone">{{toDoTaskItem.text}}</div>
+  <button
+  class="done"
+  (click)="done(toDoTaskItem.id)"
+  >V</button>
+  <button class="delete" (click)="deleteToDoTask(toDoTaskItem.id)">X</button>
+  <button class="change" (click)="changeToDoTask()">Change</button>
+</div>
